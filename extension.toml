@@ -4,7 +4,7 @@ version = "0.0.1"
 schema_version = 1
 authors = ["Artur Chakhvadze <norpadon@gmail.com>"]
 description = "Support for the nickel configuration language."
-repository = "https://github.com/your-name/my-zed-extension"
+repository = "https://github.com/norpadon/zed-nickel-extension"
 
 [grammars.nickel]
 repository = "https://github.com/nickel-lang/tree-sitter-nickel"
