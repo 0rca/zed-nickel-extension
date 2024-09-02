@@ -8,6 +8,7 @@ impl zed::Extension for NickelExtension {
     fn new() -> Self {
         NickelExtension {
             // ... state
+
         }
     }
 }
