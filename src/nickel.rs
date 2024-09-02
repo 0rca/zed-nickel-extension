@@ -8,7 +8,7 @@ struct NLSBinary {
 struct NickelExtension {}
 
 fn language_server_binary(worktree: &zed::Worktree) -> Result<NLSBinary> {
-    let binary_settings = LspSettings::for_worktree("nickel", worktree)
+    let binary_settings = LspSettings::for_worktree("nls", worktree)
         .ok()
         .and_then(|lsp_settings| lsp_settings.binary);
     let binary_args = binary_settings
